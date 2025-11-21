@@ -79,10 +79,14 @@ export const routes = {
   coordination: {
     dashboard: "/estrategico/coordination/dashboard",
     meetings: "/estrategico/coordination/reuniones",
-    communications: "/estrategico/coordination/comunicaciones",
-    collaboration: "/estrategico/coordination/colaboracion",
+    communications: "/estrategico/conversation/list",
+    collaboration: "/estrategico/conversation",
     calendar: "/estrategico/coordination/calendario",
     profile: "/estrategico/coordination/perfil",
+  },
+  conversation: {
+    list: "/estrategico/conversation", // Tu ruta actual
+    chat: "/estrategico/conversation" // Base para chats
   },
   reporting: {
     dashboard: "/estrategico/reporting/dashboard",
