@@ -46,11 +46,11 @@ export const ROLE_ROUTES: Record<string, string> = {
   // ========================================
   // 💼 GRUPO QUEZADA - RECURSOS HUMANOS Y FINANZAS
   // ========================================
-  human_resources: "/administrativo/human_resources/dashboard",
-  financial_manager: "/administrativo/financial_manager/dashboard",
-  system_viewer: "/administrativo/system_viewer/dashboard",
-  enrollment_manager: "/administrativo/enrollment_manager/dashboard",
-  data_analyst: "/administrativo/data_analyst/dashboard",
+  human_resources: "/administrativo/dashboard",
+  financial_manager: "/administrativo/dashboard",
+  system_viewer: "/administrativo/dashboard",
+  enrollment_manager: "/administrativo/dashboard",
+  data_analyst: "/administrativo/dashboard",
 
   // ========================================
   // 📢 GRUPO HURTADO - MARKETING
