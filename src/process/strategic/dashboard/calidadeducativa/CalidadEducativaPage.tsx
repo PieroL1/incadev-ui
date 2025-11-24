@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import StrategicLayout from "../../StrategicLayout";
 import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
@@ -162,12 +163,13 @@ export const CalidadEducativaPage = () => {
   const alertas = estandares.length - cumplidos;
 
   return (
-    <div className="min-h-screen bg-slate-50 pt-12 pb-16 px-4 sm:px-6 lg:px-8 space-y-12">
+    <StrategicLayout title="Dashboard - Gestión de Organizaciones">
+      <div className="min-h-screen bg-slate-50 pt-12 pb-16 px-4 sm:px-6 lg:px-8 space-y-12">
       {/* HEADER */}
       <header className="text-center space-y-2 max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold">Módulo de Calidad Educativa</h1>
         <p className="text-slate-500">
-          Flujo de Evaluación de Estándares (Grupo 05)
+          Flujo de Evaluación de Estándares
         </p>
       </header>
 
@@ -175,7 +177,7 @@ export const CalidadEducativaPage = () => {
       <section className="max-w-4xl mx-auto space-y-6">
         <div className="flex items-center gap-2 mb-4">
           <h2 className="text-xl font-semibold">
-            Gestión de Estándares (Vista Director)
+            Gestión de Estándares
           </h2>
         </div>
 
@@ -507,5 +509,7 @@ export const CalidadEducativaPage = () => {
         </Card>
       </section>
     </div>
+    </StrategicLayout>
+    
   );
 };

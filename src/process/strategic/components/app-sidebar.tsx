@@ -110,10 +110,7 @@ export function AppSidebar({ token, user, ...props }: AppSidebarProps) {
                 </SidebarMenuItem>
                 <SidebarMenuItem>
                   <SidebarMenuButton asChild>
-                    <a href={routes.admin.users}>
-                      <IconUsers className="h-4 w-4" />
-                      <span>Usuarios</span>
-                    </a>
+                    
                   </SidebarMenuButton>
                 </SidebarMenuItem>
                 <SidebarMenuItem>
@@ -134,17 +131,17 @@ export function AppSidebar({ token, user, ...props }: AppSidebarProps) {
                 </SidebarMenuItem>
                 <SidebarMenuItem>
                   <SidebarMenuButton asChild>
-                    <a href={routes.admin.roles}>
-                      <IconShield className="h-4 w-4" />
-                      <span>Roles</span>
+                    <a href={routes.admin.management.plans}>
+                      <IconFileText className="h-4 w-4" />
+                      <span>Planes</span>
                     </a>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
                 <SidebarMenuItem>
                   <SidebarMenuButton asChild>
-                    <a href={routes.admin.permissions}>
-                      <IconKey className="h-4 w-4" />
-                      <span>Permisos</span>
+                    <a href={routes.admin.management.calidad}>
+                      <IconFileText className="h-4 w-4" />
+                      <span>Calidad</span>
                     </a>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
@@ -158,10 +155,7 @@ export function AppSidebar({ token, user, ...props }: AppSidebarProps) {
               <SidebarMenu>
                 <SidebarMenuItem>
                   <SidebarMenuButton asChild>
-                    <a href={routes.coordination.meetings}>
-                      <IconCalendar className="h-4 w-4" />
-                      <span>Reuniones</span>
-                    </a>
+                   
                   </SidebarMenuButton>
                 </SidebarMenuItem>
                 <SidebarMenuItem>
@@ -182,10 +176,7 @@ export function AppSidebar({ token, user, ...props }: AppSidebarProps) {
                 </SidebarMenuItem>
                 <SidebarMenuItem>
                   <SidebarMenuButton asChild>
-                    <a href={routes.coordination.calendar}>
-                      <IconCalendar className="h-4 w-4" />
-                      <span>Calendario</span>
-                    </a>
+                    
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               </SidebarMenu>

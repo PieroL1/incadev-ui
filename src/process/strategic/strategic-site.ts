@@ -49,6 +49,8 @@ export const routes = {
     management: {
       organizations: "/estrategico/admin/organizaciones",
       agreements: "/estrategico/admin/convenios",
+      plans: "/estrategico/plan",
+      calidad: "/estrategico/calidadeducativa",
       documents: "/estrategico/admin/documentos",
     },
   },
