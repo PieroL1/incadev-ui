@@ -191,7 +191,7 @@ export default function BannerCarousel3D({ banners }: BannerCarousel3DProps) {
                   <div>
                     <Button
                       size="lg"
-                      className="bg-white text-primary hover:bg-white/90 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 gap-2"
+                      className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 gap-2"
                       asChild
                     >
                       <a
